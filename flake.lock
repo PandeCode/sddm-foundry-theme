@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791734076,
+        "narHash": "sha256-0dNcyVeoD61zhucIpt5BAQ+ytd6JzF641Z+A9bgltLo=",
+        "rev": "7fd4004d0511991fff3a0524856a9be09e28c5f0",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1090327.7fd4004d0511/nixexprs.tar.zst?lastModified=1791734076&rev=7fd4004d0511991fff3a0524856a9be09e28c5f0"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.zst"
+      }
+    },
+    "nixutils": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1790459615,
+        "narHash": "sha256-KFhlMyfgrM8qzumGMWcpEkBrAjGdOKlMOA0FUFtC28o=",
+        "owner": "PandeCode",
+        "repo": "nixutils",
+        "rev": "f99c23bdef5279e811b398d1fcf050ed28a8cddd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PandeCode",
+        "repo": "nixutils",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nixutils": "nixutils"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

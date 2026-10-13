@@ -1,0 +1,8 @@
+singleton Style 1.0 Style.qml
+Bevel 1.0 Bevel.qml
+Dropdown 1.0 Dropdown.qml
+Field 1.0 Field.qml
+Inset 1.0 Inset.qml
+MenuButton 1.0 MenuButton.qml
+Stripes 1.0 Stripes.qml
+Panel 1.0 Panel.qml
